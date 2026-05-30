@@ -191,9 +191,9 @@ plugins:
       provider: giscus
       options:
         repo: cfuentesb30/knowledge-garden
-        repoId: REPO_ID_PLACEHOLDER
+        repoId: R_kgDOSsglaQ
         category: General
-        categoryId: CATEGORY_ID_PLACEHOLDER
+        categoryId: DIC_kwDOSsglac4C-LB8
         mapping: pathname
         strict: false
         reactionsEnabled: true
