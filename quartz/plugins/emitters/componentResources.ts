@@ -325,7 +325,25 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         location.reload();
       }
 
-      function ensureGoogleTranslateLoaded() {
+      function triggerGoogleTranslation(lang) {
+        // The googtrans cookie alone does not apply translation; Google's widget
+        // only translates once its auto-generated <select class="goog-te-combo">
+        // receives a real "change" event, so we poll for it and fire one ourselves.
+        let attempts = 0;
+        const interval = setInterval(() => {
+          const select = document.querySelector("#google_translate_element select.goog-te-combo");
+          attempts++;
+          if (select) {
+            clearInterval(interval);
+            select.value = lang;
+            select.dispatchEvent(new Event("change"));
+          } else if (attempts > 40) {
+            clearInterval(interval);
+          }
+        }, 250);
+      }
+
+      function ensureGoogleTranslateLoaded(lang) {
         if (document.getElementById("google_translate_element")) return;
         const div = document.createElement("div");
         div.id = "google_translate_element";
@@ -336,6 +354,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
             { pageLanguage: NATIVE_LANG, includedLanguages: TARGET_LANGS.join(","), autoDisplay: false },
             "google_translate_element",
           );
+          triggerGoogleTranslation(lang);
         };
 
         const script = document.createElement("script");
@@ -360,7 +379,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         document.body.appendChild(container);
 
         if (active !== NATIVE_LANG) {
-          ensureGoogleTranslateLoaded();
+          ensureGoogleTranslateLoaded(active);
         }
       }
 
