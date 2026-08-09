@@ -8,6 +8,10 @@ configuration:
     provider: null
   locale: en-US
   baseUrl: cfuentesb30.github.io/knowledge-garden
+  translation:
+    enabled: true
+    languages:
+      - es
   ignorePatterns:
     - private
     - templates

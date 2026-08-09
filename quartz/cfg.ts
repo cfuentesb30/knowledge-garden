@@ -81,6 +81,15 @@ export interface GlobalConfiguration {
    * Region Codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
    */
   locale: ValidLocale
+  /** Client-side page translation switch (Google Translate). Translates note content, not just UI strings. */
+  translation?: TranslationConfig
+}
+
+export interface TranslationConfig {
+  /** Whether to show the language switch button */
+  enabled: boolean
+  /** Additional 2-letter language codes to offer besides the site's native `locale` language, e.g. ["es"] */
+  languages: string[]
 }
 
 export interface QuartzConfig {

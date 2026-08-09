@@ -258,6 +258,116 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     `)
   }
 
+  // language switch (client-side page translation via Google Translate)
+  if (cfg.translation?.enabled && cfg.translation.languages?.length) {
+    const nativeLang = cfg.locale?.split("-")[0] ?? "en"
+    const targetLangs = JSON.stringify(cfg.translation.languages)
+
+    componentResources.css.push(`
+      #language-switch {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 999;
+        display: flex;
+        gap: 0.25rem;
+        background: var(--light);
+        border: 1px solid var(--lightgray);
+        border-radius: 999px;
+        padding: 0.25rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+      }
+      #language-switch button {
+        border: none;
+        background: transparent;
+        color: var(--dark);
+        cursor: pointer;
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-family: var(--bodyFont);
+      }
+      #language-switch button.active {
+        background: var(--secondary);
+        color: var(--light);
+      }
+      .goog-te-banner-frame,
+      #google_translate_element {
+        display: none !important;
+      }
+      body {
+        top: 0 !important;
+      }
+    `)
+
+    componentResources.afterDOMLoaded.push(`
+      const NATIVE_LANG = ${JSON.stringify(nativeLang)};
+      const TARGET_LANGS = ${targetLangs};
+
+      function getGoogTransCookie() {
+        const match = document.cookie.match(/(?:^|; )googtrans=([^;]*)/);
+        return match ? decodeURIComponent(match[1]) : "";
+      }
+
+      function currentLang() {
+        const lang = getGoogTransCookie().split("/")[2];
+        return TARGET_LANGS.includes(lang) ? lang : NATIVE_LANG;
+      }
+
+      function setLang(lang) {
+        const expire = "expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        if (lang === NATIVE_LANG) {
+          document.cookie = "googtrans=; path=/; " + expire;
+          document.cookie = "googtrans=; path=/; domain=" + location.hostname + "; " + expire;
+        } else {
+          document.cookie = "googtrans=/" + NATIVE_LANG + "/" + lang + "; path=/";
+        }
+        location.reload();
+      }
+
+      function ensureGoogleTranslateLoaded() {
+        if (document.getElementById("google_translate_element")) return;
+        const div = document.createElement("div");
+        div.id = "google_translate_element";
+        document.body.appendChild(div);
+
+        window.googleTranslateElementInit = function () {
+          new google.translate.TranslateElement(
+            { pageLanguage: NATIVE_LANG, includedLanguages: TARGET_LANGS.join(","), autoDisplay: false },
+            "google_translate_element",
+          );
+        };
+
+        const script = document.createElement("script");
+        script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        document.head.appendChild(script);
+      }
+
+      function buildLanguageSwitch() {
+        if (document.getElementById("language-switch")) return;
+        const active = currentLang();
+        const container = document.createElement("div");
+        container.id = "language-switch";
+        for (const lang of [NATIVE_LANG, ...TARGET_LANGS]) {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = lang.toUpperCase();
+          btn.setAttribute("aria-label", "Switch site language to " + lang.toUpperCase());
+          if (lang === active) btn.classList.add("active");
+          btn.addEventListener("click", () => setLang(lang));
+          container.appendChild(btn);
+        }
+        document.body.appendChild(container);
+
+        if (active !== NATIVE_LANG) {
+          ensureGoogleTranslateLoaded();
+        }
+      }
+
+      document.addEventListener("nav", buildLanguageSwitch);
+    `)
+  }
+
   if (cfg.enableSPA) {
     componentResources.afterDOMLoaded.push(spaRouterScript)
   } else {

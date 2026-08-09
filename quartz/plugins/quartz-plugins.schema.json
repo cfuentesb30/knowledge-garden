@@ -39,6 +39,21 @@
           "type": "string",
           "description": "Base URL for the site"
         },
+        "translation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "description": "Show the client-side language switch button"
+            },
+            "languages": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Additional language codes to offer besides the site's native locale language, e.g. [\"es\"]"
+            }
+          }
+        },
         "theme": {
           "type": "object",
           "required": ["fontOrigin", "cdnCaching", "typography", "colors"],
