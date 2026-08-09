@@ -17,6 +17,23 @@ instead of doing cross-cutting work generically:
 - **quartz-ui** — SCSS, theme colors/typography, dark mode, responsive styling
 - **quartz-ux** — layout/navigation config, information architecture, discoverability
 - **obsidian-content** — writing/editing notes in `content/`, Obsidian markdown syntax, frontmatter
+- **religious-studies** — researching, fact-checking, and improving scholarly accuracy/neutrality
+  of note content; academic religious-studies methodology (see below)
+
+## Content research: neutrality standard
+
+Content in this garden must stay methodologically neutral across traditions — no doctrinal
+advocacy, no privileging the conventional "world religions" canon over indigenous/diasporic/new
+religious movements, emic (adherent) vs. etic (scholarly) claims kept distinct, contested
+scholarship named as contested rather than silently resolved. This is enforced by:
+
+- The **religion-research** skill (`.claude/skills/religion-research/`) — the research procedure:
+  source hierarchy, cross-verification, and the specific bias failure modes to check for.
+- The **religious-studies** subagent — applies that procedure with the actual academic stance
+  (methodological agnosticism / *epoché*) when researching or editing notes.
+
+Use these whenever a task involves verifying a claim, researching a topic to expand a note, or
+auditing existing notes for bias/imbalance — not just when explicitly asked to "research."
 
 ## Architecture
 
@@ -44,6 +61,11 @@ Configuration:
   template default — don't edit it; it's not what builds this site.
 - `quartz.lock.json` — pinned remote-plugin commit SHAs (a lockfile; prefer `quartz plugin install`
   over hand-editing).
+- `configuration.translation` (in `quartz.config.yaml`, typed in `quartz/cfg.ts`) — enables an
+  EN/ES client-side language switch (Google Translate, cookie-driven, implemented directly in
+  `quartz/plugins/emitters/componentResources.ts` rather than as a marketplace plugin). Machine
+  translation, not curated content — treat it as a UX affordance, not a substitute for actually
+  writing notes in another language.
 
 ## Commands
 
