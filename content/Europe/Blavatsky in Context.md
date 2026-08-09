@@ -219,4 +219,3 @@ Blavatsky is one of the key architects of modern occult universalism. Her signif
 - [[Western Esotericism Overview]]
 - [[Crowley in Context]]
 - [[Secrecy, Prestige, and Symbolic Capital in Esoteric Orders]]
-- [[Occultism Research Gaps and Next Study Plan]]

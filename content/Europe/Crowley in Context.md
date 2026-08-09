@@ -233,4 +233,3 @@ Crowley is one of the key transformer figures of modern occultism. He inherits t
 - [[Occult Revival and Secret Orders]]
 - [[Secrecy, Prestige, and Symbolic Capital in Esoteric Orders]]
 - [[Lesser Key of Solomon and Ars Goetia]]
-- [[Occultism Research Gaps and Next Study Plan]]

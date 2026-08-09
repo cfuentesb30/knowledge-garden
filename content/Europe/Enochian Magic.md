@@ -184,4 +184,3 @@ Enochian magic is best understood as an early modern angelic-revelatory archive 
 - [[Ceremonial Magic]]
 - [[Occult Revival and Secret Orders]]
 - [[Western Esotericism Overview]]
-- [[Occultism Research Gaps and Next Study Plan]]

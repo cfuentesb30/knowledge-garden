@@ -195,4 +195,3 @@ Studying Lévi helps explain:
 - [[Tarot in Occult Systems]]
 - [[Kabbalah and Christian Kabbalah]]
 - [[Western Esotericism Overview]]
-- [[Occultism Research Gaps and Next Study Plan]]

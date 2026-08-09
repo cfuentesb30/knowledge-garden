@@ -189,4 +189,3 @@ Agrippa is one of the great systematizers of Renaissance occult philosophy. His 
 - [[Western Esotericism Overview]]
 - [[Golden Dawn]]
 - [[Lesser Key of Solomon and Ars Goetia]]
-- [[Occultism Research Gaps and Next Study Plan]]

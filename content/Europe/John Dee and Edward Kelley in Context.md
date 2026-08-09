@@ -171,4 +171,3 @@ John Dee and Edward Kelley are central because they generated the visionary and 
 - [[Golden Dawn]]
 - [[Occult Revival and Secret Orders]]
 - [[Ceremonial Magic]]
-- [[Occultism Research Gaps and Next Study Plan]]

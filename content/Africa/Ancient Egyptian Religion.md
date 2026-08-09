@@ -114,7 +114,6 @@ Ancient Egyptian religion is a long-duration religious civilization centered on 
 - [[Egyptian Death Judgment and Soul Concepts]]
 - [[Egyptian Ritual Calendar and Temple Festivals]]
 - [[Egyptian Funerary Texts]]
-- [[Nile and Egyptian Religion Placement Note]]
 - [[../Middle East/Ancient Near Eastern Religions|Ancient Near Eastern Religions]]
 - [[../Cross-Regional/Gods and Divine Beings Index|Gods and Divine Beings Index]]
 - [[../Cross-Regional/Rituals and Festivals Index|Rituals and Festivals Index]]

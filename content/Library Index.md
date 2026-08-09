@@ -42,5 +42,3 @@ For each tradition or topic, try to cover:
 ## Related:
 - [[Overview]]
 - [[Cross-Regional/Overview|Cross-Regional]]
-- [[../Knowledge Index|Knowledge Index]]
-- [[../../System/Dashboard|Dashboard]]

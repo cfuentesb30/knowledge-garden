@@ -1,64 +1,68 @@
 # Mesoamerican Deity and Calendar Map
 
 ## Purpose
-This note acts as a quick-reference shelf for major gods, divine patterns, and calendrical logic in Mesoamerican religious worlds.
+This note is a reference shelf for major gods, divine patterns, and calendrical logic in Mesoamerican religious worlds. It is a companion to [[Mesoamerican Religions Overview]], which covers the wider system (sacrifice, kingship, ritual life) in more depth — read that note for argument, this one for orientation.
 
 ## Important caution
-Mesoamerica is not one religion.
-Different civilizations and periods used overlapping but distinct calendars, gods, and ritual emphases.
-The purpose of this map is orientation, not forced unification.
+Mesoamerica is not one religion. The Maya (a language family and cultural sphere spanning roughly three millennia and dozens of politically independent city-states) and the Mexica/Aztec (a specific, much later imperial culture centered on Tenochtitlan, dominant only from roughly 1428 to the Spanish conquest in 1521) are separated by well over a thousand years of independent development, different languages, and different political structures. They share overlapping structural patterns — calendrical religion, maize-centered cosmology, blood/sacrifice as a mode of exchange with the divine — because of long regional contact and a shared Mesoamerican cultural substrate, not because they are the same tradition wearing different names. Much of what is popularly known as "Aztec religion" is specifically Late Postclassic Mexica state religion as recorded by 16th-century Spanish missionary-ethnographers (notably Bernardino de Sahagún) after the conquest — sources that are invaluable but were produced under colonial conditions and through a Christian interpretive lens, a caveat that should be applied with the same rigor here as it would be to any colonial-era ethnographic source elsewhere in this garden.
 
-## Major Mexica / Aztec divine figures
-- **Huitzilopochtli** — war, sun, state identity, Mexica destiny
-- **Tlaloc** — rain, agricultural fertility, storm power
-- **Quetzalcoatl** — wind, priesthood, knowledge, cultural mediation, sacred prestige in multiple contexts
-- **Tezcatlipoca** — rulership, conflict, night, fate, power, instability
-- **Xipe Totec** — renewal, skin, sacrifice, agricultural and seasonal symbolism
-- **Coatlicue** — maternal and terrifying cosmological force in major mythic patterns
+## Major Mexica/Aztec divine figures
+- **Huitzilopochtli** — war, the sun, and Mexica state/tribal identity specifically; patron deity of Tenochtitlan, whose temple (alongside Tlaloc's) crowned the Templo Mayor, the empire's central pyramid. Mexica origin tradition holds that Huitzilopochtli guided the Mexica migration from the mythical homeland Aztlan to the site of Tenochtitlan, marked by the sign of an eagle on a cactus.
+- **Tlaloc** — rain, storms, and agricultural fertility; one of the oldest and most widespread deities in Mesoamerican religion generally (his iconography, goggle-eyed and fanged, appears at Teotihuacan centuries before the Mexica), sharing deep structural continuity with the Maya rain god Chaac (below) despite belonging to unrelated language traditions — evidence of a genuinely shared regional religious substrate rather than direct borrowing.
+- **Quetzalcoatl** ("Feathered Serpent") — associated with wind (in his aspect as **Ehecatl**), priesthood, knowledge, and cultural transmission (myth credits him with giving humanity maize and the calendar). Quetzalcoatl is also the name/title of a legendary Toltec priest-king, and post-conquest sources (again filtered through Spanish missionary interpretation) sometimes conflated the god, the historical/legendary ruler, and prophecies of a returning figure in ways that fed directly into colonial-era narratives about Cortés being mistaken for a returning god — a claim that most current scholarship treats as a later colonial-period elaboration rather than a reliable record of Mexica belief at the time of contact.
+- **Tezcatlipoca** ("Smoking Mirror") — rulership, conflict, night, and fate; associated with obsidian mirrors used in divination, and often mythologically positioned as Quetzalcoatl's rival/complement — their conflict is a recurring structuring device in Mexica cosmogonic myth (see Five Suns, below).
+- **Xipe Totec** ("Our Lord the Flayed One") — agricultural renewal, associated with the seed's germination beneath a dead husk; his ritual complex included priests wearing the flayed skins of sacrificial victims for twenty days, a practice that is well-attested archaeologically and in colonial-era sources and that scholars (notably Davíd Carrasco) interpret within a coherent agricultural-renewal symbolic logic rather than treating it as gratuitous violence.
+- **Coatlicue** ("Serpent Skirt") — a maternal and simultaneously terrifying cosmogonic figure, mother of Huitzilopochtli; her monumental Mexica-era sculpture (now in Mexico's National Museum of Anthropology) is one of the most iconographically dense images to survive from Mexica religion.
+- **Tonatiuh** — the sun god of the present (Fifth) cosmic era; central to the mythology of the Aztec Calendar Stone (Piedra del Sol).
+- **Mictlantecuhtli** — lord of Mictlan, the northern underworld destination for most of the dead (not a place of moral punishment in the Christian sense, but simply the ordinary afterlife destination determined largely by manner of death rather than by conduct in life).
+- **Chalchiuhtlicue** — goddess of terrestrial waters (lakes, rivers, streams), consort of Tlaloc, and ruler of the mythic Fourth Sun.
 
-## Maya and broader patterns
-Maya religion varies by city and period, but recurring themes include:
-- maize-related divine symbolism
-- rain gods
-- underworld structures
-- dynastic and creator figures
-- sacred kingship linked to ritual blood and cosmic alignment
+## The Five Suns
+Mexica cosmogony, as recorded in colonial-era sources like the *Leyenda de los Soles* and the *Historia de los Mexicanos por sus Pinturas*, held that the world had already passed through four prior cosmic eras ("Suns"), each ending in a specific catastrophe (devoured by jaguars; destroyed by hurricane; destroyed by fire; destroyed by flood), before the present, Fifth Sun era began at Teotihuacan when the humble god **Nanahuatzin** sacrificed himself by leaping into a divine fire to become the new sun, followed reluctantly by **Tecuciztecatl**, who became the moon. This is the mythological foundation for the belief — genuinely held and ritually acted on, per the historical and archaeological record — that the present sun required ongoing sustenance, including human sacrifice, to continue moving and to postpone the era's prophesied end in catastrophic earthquake.
+
+## Maya divine figures and patterns
+Maya religion varied significantly by city-state and by the roughly three-thousand-year span of Maya civilization, but recurring major figures include:
+- **Itzamna** — a supreme, elderly creator god associated with the sky, writing, and knowledge; unlike the Mexica's relatively concrete divine personalities, Itzamna is often described in the scholarly literature as diffuse and difficult to pin down iconographically, appearing more as a background cosmic authority than an actively narrated character.
+- **Ix Chel** — associated with the moon, medicine, weaving, and childbirth/fertility in most reconstructions, though scholars debate how many distinct "moon goddess" figures in Classic and Postclassic Maya iconography should actually be identified with the single name Ix Chel as known from later colonial-era Yucatec sources. Cozumel functioned as a major pilgrimage site associated with her cult in the Postclassic period.
+- **Chaac** (also Chac) — the rain god, arguably the most religiously urgent deity for daily agricultural survival in a region with limited surface water and, in the northern Yucatan especially, high dependence on rainfall and cenotes.
+- **Kukulkan** — the Maya Feathered Serpent, structurally and iconographically related to (though not simply identical to) Mexica Quetzalcoatl; especially prominent in Postclassic Yucatan (Chichen Itza's principal pyramid is dedicated to him) and tied closely to political legitimacy — the famous equinox "serpent of light" effect on the El Castillo pyramid stairway is a deliberately engineered alignment linking Kukulkan to solar/calendrical order.
+- **Hun Hunahpu** — the maize god of the Popol Vuh narrative (see below), whose death and the eventual triumph of his sons encode a maize-cycle logic: the god must die (as the maize plant is harvested/"dies") for renewal to occur.
+
+### The Popol Vuh and the Hero Twins
+The **Popol Vuh** is a K'iche' Maya narrative first recorded in alphabetic script in the 16th century (using the Latin alphabet newly introduced by Spanish colonization) from earlier oral and, per its own testimony, pictorial/hieroglyphic tradition — making it, like the Kebra Nagast or the Eddas elsewhere in this garden, a colonial-era written text preserving substantially older material rather than a document contemporaneous with Classic Maya civilization itself. Its central narrative follows the **Hero Twins**, **Hunahpu** and **Xbalanque**, sons of the murdered maize god Hun Hunahpu, who descend into the underworld **Xibalba**, defeat its lords through trickery and self-sacrifice (submitting to being burned and their ashes scattered in a river, from which they are reborn), and ultimately rise to become the sun and moon — a cycle of death and vindicated return that runs through much of Maya religious thought and that some scholars connect, cautiously, to imagery found centuries earlier in Classic Maya ceramic art, though the degree of continuity between Classic-period myth and this 16th-century K'iche' text is itself debated rather than assumed.
 
 ## Calendrical logic
-Mesoamerican religious life often combines:
-- ritual calendars
-- solar calendars
-- astronomical observation
-- state ceremony and sacred timing
-- alignment of political action with cosmic order
-
-## Why the calendar matters
-Without sacred time, the rest of the system gets distorted.
-The calendar organizes:
-- when rituals happen
-- when rulers act publicly
-- how divine favor or danger is interpreted
-- how agricultural, cosmic, and political time intersect
+Mesoamerican societies shared, with real regional variation, a common calendrical architecture combining several distinct cycles:
+- **The 260-day ritual/divinatory calendar** — called **tonalpohualli** in Nahuatl and **tzolk'in** in Maya (modern scholarly convention; the Classic Maya term for it is not definitively known), built from 20 named days combined with the numbers 1–13, producing 260 unique day-signs. Its origin is debated — proposed explanations include the human gestation period, agricultural cycles, or astronomical observation — but no single explanation commands full scholarly consensus.
+- **The 365-day solar/civil calendar** — **xiuhpohualli** (Nahuatl) or **haab'** (Maya), consisting of 18 months of 20 days plus a 5-day period widely regarded across Mesoamerica as dangerous or unlucky (**nemontemi** in Nahuatl, **wayeb'** in Maya), during which normal activity was often curtailed.
+- **The Calendar Round** — the 260-day and 365-day cycles running simultaneously produce a combined cycle of 52 years before the same day-name/date combination recurs; this 52-year span functioned, in Mexica practice, as something close to a "century," and its completion was marked by the **New Fire Ceremony** (*Toxiuhmolpilia*, "Binding of the Years"): all fires across the domain were extinguished, and at midnight priests kindled a new fire (on a sacrificial victim's chest, per the sources) atop a hill outside Tenochtitlan, then distributed the new flame outward — ritually restarting time itself, since a 52-year cycle's end was widely feared as a potential point of cosmic termination.
+- **The Long Count** — used primarily by the lowland Maya (far less so by the Mexica), an additive, non-repeating count of days from a mythological creation date, structured in units (roughly: 1 k'in = 1 day; 1 winal = 20 days; 1 tun = 360 days; 1 k'atun = ~20 years; 1 b'ak'tun = ~394 years), enabling the Maya to date events precisely across very long spans rather than only within a repeating 52-year cycle. Converting Long Count dates to the Gregorian calendar requires a **correlation constant**, and this is a genuinely contested point in Maya studies: the **Goodman-Martínez-Thompson (GMT) correlation**, developed and refined between 1905 and 1935 and subsequently supported by radiocarbon dating of inscribed wooden lintels at Tikal, is the correlation used by the large majority of current Maya scholarship — but it is not universally uncontested, and more than fifty alternative correlations have been proposed historically, some differing by only days, others by centuries. The GMT correlation places the mythological Maya creation date (4 Ajaw 8 Kumk'u) at **11 August 3114 BCE** in the proleptic Gregorian calendar.
+- The popular "Maya calendar predicted the world would end in 2012" claim, tied to the completion of the 13th b'ak'tun (21 December 2012 under GMT), is not supported by the epigraphic or archaeological record: surviving Classic Maya inscriptions that reference the date treat it as a significant calendrical turnover comparable to a millennium rollover, not a prophesied apocalypse — the "2012 phenomenon" was substantially a modern popular and New Age phenomenon built on a misreading of the sources, not a transmission of ancient Maya eschatology.
 
 ## Ritual implications
-Calendrical logic affects:
-- sacrifice timing
-- festival cycles
-- divination
-- war symbolism in some contexts
-- legitimacy and omen reading
+Calendrical logic was not abstract timekeeping; it structured concrete ritual and political decisions:
+- sacrifice and offering timing, coordinated with both ritual (260-day) and solar (365-day) calendars
+- royal accession, warfare, and major public ceremony, frequently scheduled to coincide with auspicious day-signs or astronomical events (Venus's heliacal risings, tracked with notable precision by Maya astronomers and linked in some inscriptions to the timing of specific wars, is among the best-documented cases)
+- divination, since each day-sign carried its own set of favorable/unfavorable associations that diviners consulted before undertaking major actions
+- agricultural cycles, integrated with both solar-calendar timing and the maize-centered mythology discussed above
 
 ## Why this note matters
-This map exists to stop the usual lazy summary in which Mesoamerican religion becomes random gods plus random violence.
-It was highly structured.
+Reducing Mesoamerican religion to "gods plus violence" — the most common lay misreading — erases the calendrical, astronomical, and cosmological sophistication that actually organized it. Sacred time is not a footnote here; it is close to the organizing principle of the entire system, on par with the role scripture or law plays as an organizing principle in other traditions treated in this garden.
 
 ## Recommended resources
-- Davíd Carrasco
-- Alfredo López Austin
-- specialist Mesoamerican religion scholarship
+- Davíd Carrasco — *Religions of Mesoamerica: Cosmovision and Ceremonial Centers* (2nd ed., 2013)
+- Alfredo López Austin — *Human Body and Ideology: Concepts of the Ancient Nahuas*
+- Michael D. Coe — *The Maya* (broad orientation) and *Breaking the Maya Code* (on decipherment)
+- Karl Taube — *Aztec and Maya Myths*
+- Miguel León-Portilla — *Aztec Thought and Culture*
+- Prudence Rice — work on Maya calendrics and political cycling
+- Munro Edmonson — on Long Count correlation debates
 
 ## Related:
 - [[Mesoamerican Religions Overview]]
 - [[Andean Religions Overview]]
+- [[North American Indigenous Religions]]
 - [[../Cross-Regional/Festivals and Sacred Time|Festivals and Sacred Time]]
 - [[../Cross-Regional/Sacrifice and Offering Systems|Sacrifice and Offering Systems]]
+- [[../Cross-Regional/Kingship and Divine Legitimacy|Kingship and Divine Legitimacy]]
+- [[../Cross-Regional/Apocalypse and End-Times Models|Apocalypse and End-Times Models]]
